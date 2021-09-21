@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About {person.name}</title>
+</head>
+<body>
+<h1>{person.name}</h1>
+Hobbies:
+<ul>
+    {#for hobby in person.hobbies}
+    <li>{hobby}</li>
+    {/}
+</ul>
+</body>
+</html>
